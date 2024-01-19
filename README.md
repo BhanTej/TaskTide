@@ -1,2 +1,2 @@
 # TaskTide
-A website used to plan tasks for present and future projects.
+A website used to plan tasks for present and future projects. EDITED
