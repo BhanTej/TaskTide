@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project and Task Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Project and Task Planner</h1>
+    <div class="container">
+        <div class="project-input">
+            <h2>Add a Project</h2>
+            <input type="text" id="projectName" placeholder="Project Name">
+            <button id="addProject">Add Project</button>
+        </div>
+        <div class="task-input">
+            <h2>Add a Task</h2>
+            <input type="text" id="taskName" placeholder="Task Name">
+            <select id="projectSelect">
+                <option value="">Select Project</option>
+            </select>
+            <button id="addTask">Add Task</button>
+        </div>
+        <div class="project-list">
+            <h2>Projects</h2>
+            <ul id="projects"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
