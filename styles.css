@@ -42,3 +42,54 @@ button {
     border: 1px solid #ddd;
     border-radius: 4px;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #555;
+}
+
+input, select, button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.project-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.project-list li {
+    margin: 10px 0;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#calendar {
+    max-width: 900px;
+    margin: 40px auto;
+}

@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project and Task Planner</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- FullCalendar CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.css" rel="stylesheet" />
 </head>
 <body>
     <h1>Project and Task Planner</h1>
@@ -20,13 +22,17 @@
             <select id="projectSelect">
                 <option value="">Select Project</option>
             </select>
+            <input type="date" id="taskDate">
             <button id="addTask">Add Task</button>
         </div>
         <div class="project-list">
             <h2>Projects</h2>
             <ul id="projects"></ul>
         </div>
+        <div id="calendar"></div>
     </div>
+    <!-- FullCalendar JS -->
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
